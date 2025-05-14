@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MySite</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#cards">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to My Responsive Page</h1>
+      <p>This layout adjusts smoothly for any screen size.</p>
+    </section>
+
+    <!-- 🔹 Cards Section -->
+    <section class="cards-section" id="cards">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Design</h3>
+          <p>We create beautiful, responsive websites tailored to your needs.</p>
+        </div>
+        <div class="card">
+          <h3>Development</h3>
+          <p>Full-stack development services with clean, modern code.</p>
+        </div>
+        <div class="card">
+          <h3>SEO Optimization</h3>
+          <p>Boost your presence on search engines and get more traffic.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🔹 Contact Form -->
+    <section class="contact-section" id="contact">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
